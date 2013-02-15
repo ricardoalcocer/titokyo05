@@ -1,0 +1,8 @@
+<Alloy>
+	<TableViewRow id="mainListRow" rowId="{id}" rowDate="{timestamp}" rowTitle="{title}" rowContent="{content}" >
+		<View id="mainListRowContainer">
+			<Label id="mainListRowLine1" text="{title}"></Label>
+			<Label id="mainListRowLine2" text="{timestamp}"></Label>
+		</View>
+	</TableViewRow>
+</Alloy>

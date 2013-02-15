@@ -1,0 +1,10 @@
+"#menuListRow":{
+	height: "40dp"
+},
+"#menuListRowLabel":{
+	left: 5,
+	font:{
+		fontSize: "20dp"
+	},
+	color: "#000"
+}

@@ -1,0 +1,22 @@
+"#appMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical",
+	backgroundColor: "#cacaca"
+},
+"#mainHeader":{
+	width: Ti.UI.FILL,
+	height: "55dp",
+	backgroundColor:"#073384",
+	layout: "horizontal"
+},
+"#menuButton":{
+	backgroundColor: "#175084",
+	backgroundImage: "/transbtn.png",
+	height: "55dp",
+	width: "55dp"
+},
+"#mainList":{
+	backgroundColor: "#9DB3DB",
+	separatorColor:'transparent'
+}

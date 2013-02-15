@@ -1,0 +1,11 @@
+<Alloy>
+	<Collection src="myModel"/>
+	<View id="appMain">
+		<View id="mainHeader">
+			<View id="menuButton"></View>
+		</View>
+		<TableView id="mainList" dataCollection="myModel">
+			<Require src="mainlistrow"/>
+		</TableView>
+	</View>
+</Alloy>

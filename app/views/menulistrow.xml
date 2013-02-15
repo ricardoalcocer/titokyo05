@@ -1,0 +1,5 @@
+<Alloy>
+	<TableViewRow id="menuListRow">
+		<Label id="menuListRowLabel">Top News</Label>
+	</TableViewRow>
+</Alloy>

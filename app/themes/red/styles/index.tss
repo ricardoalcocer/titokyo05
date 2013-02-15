@@ -1,0 +1,58 @@
+".container": {
+	backgroundColor:"white",
+	navBarHidden: "true",
+	exitOnClose: "true",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT]
+},
+"#detailView":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	borderWidth: 1,
+	borderRadius: 5,
+	borderColor: "#cacaca",
+	top: 10,
+	left:10,
+	bpttom: 15,
+	right: 10,
+	backgroundColor: "#FFE5E5",
+	layout: "vertical",
+	visible: "false"
+},
+"#closeButton":{
+	top: 10,
+	right: 10,
+	width: "20dp",
+	height: "20dp",
+	backgroundImage: "/closebutton.png"
+},
+"#storyTitle":{
+	left: 10,
+	top: 15,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: "20dp",
+		fontWeight: 'bold'
+	},
+	color: "#000"
+},
+"#storyDate":{
+	left: 10,
+	top: 5,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: "18dp"
+	},
+	color: "#000"
+},
+"#storyContent":{
+	left: 10,
+	top: 5,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: "18dp"
+	},
+	color: "#000"
+}

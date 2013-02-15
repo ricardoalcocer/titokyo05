@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="appMenu">
+		<View id="menuHeader">
+			<Label id="menuTitle">MENU</Label>
+		</View>
+		<TableView id="menuList"></TableView>
+	</View>
+</Alloy>
